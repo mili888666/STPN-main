@@ -20,7 +20,7 @@ def asym_adj(adj):
 
 def load_data(data_name, ratio = [0.7, 0.1]):
     if data_name == 'US':
-        adj_mx = np.load('C:/Users\lenovo\Desktop\神经网络学习\STPN-main\my_data/airport_adjacency_gaussian_filtered.npy')
+        adj_mx = np.load('../airport_adjacency_gaussian_filtered.npy')
         #机场网络邻接矩阵
         od_power = np.load('C:/Users\lenovo\Desktop\神经网络学习\STPN-main\my_data/airport_traffic_matrix.npy')
         # 交通流量矩阵
